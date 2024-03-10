@@ -15,3 +15,4 @@
 	- AUTH_PROVIDER_X509_CERT_URL= oauth cert uri
 	- CLIENT_X509_CERT_URL= uri
 	- UNIVERSE_DOMAIN= uri
+ 	- AUTHORIZATION (Currently authorization token is hard coded enviroment variable)
