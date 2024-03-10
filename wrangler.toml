@@ -9,8 +9,6 @@ node_compat = true
 # [vars]
 # MY_VARIABLE = "production_value"
 
-# WEB_API_KEY= "AIzaSyDNX8L2AlaN0HmGkXS11jjYOMyJH25bz3w"
-
 # Bind a KV Namespace. Use KV as persistent storage for small key-value pairs.
 # Docs: https://developers.cloudflare.com/workers/runtime-apis/kv
 # [[kv_namespaces]]
