@@ -1,12 +1,15 @@
-name = "divine-shadow-dba8"
+name = "firebase-messaging"
 main = "src/index.ts"
 compatibility_date = "2024-02-08"
+node_compat = true
 
 # Variable bindings. These are arbitrary, plaintext strings (similar to environment variables)
 # Note: Use secrets to store sensitive data.
 # Docs: https://developers.cloudflare.com/workers/platform/environment-variables
 # [vars]
 # MY_VARIABLE = "production_value"
+
+# WEB_API_KEY= "AIzaSyDNX8L2AlaN0HmGkXS11jjYOMyJH25bz3w"
 
 # Bind a KV Namespace. Use KV as persistent storage for small key-value pairs.
 # Docs: https://developers.cloudflare.com/workers/runtime-apis/kv
@@ -40,12 +43,16 @@ compatibility_date = "2024-02-08"
 # Bind a Durable Object. Durable objects are a scale-to-zero compute primitive based on the actor model.
 # Durable Objects can live for as long as needed. Use these when you need a long-running "server", such as in realtime apps.
 # Docs: https://developers.cloudflare.com/workers/runtime-apis/durable-objects
-[[durable_objects.bindings]]
-name = "MY_DURABLE_OBJECT"
-class_name = "MyDurableObject"
+# [[durable_objects.bindings]]
+# name = "MY_DURABLE_OBJECT"
+# class_name = "MyDurableObject"
 
 # Durable Object migrations.
 # Docs: https://developers.cloudflare.com/workers/learning/using-durable-objects#configure-durable-object-classes-with-migrations
-[[migrations]]
-tag = "v1"
-new_classes = ["MyDurableObject"]
+# [[migrations]]
+# tag = "v1"
+# new_classes = ["MyDurableObject"]
+
+
+
+
